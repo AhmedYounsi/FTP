@@ -1,0 +1,186 @@
+.event-modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1001;
+    background: white;
+    padding: 20px 20px;
+    transform: translate(-50%, -50%);
+    width: 460px;
+    font-weight: 700 !important;
+    border-radius: 30px;
+    .textarea-desc {
+      padding-top: 3px;
+      border-radius: 0px;
+      margin-bottom: 15px !important;
+      color: #505050;
+    }
+    .select-input {
+      width:50%;
+      outline: none;
+      padding: 6px 14px;
+      border: 1px solid #9b9b9b;
+      
+      -webkit-appearance: none;
+      background-position-x: 97%;
+      background-color: white;
+    }
+  
+    input,
+    .textarea-desc {
+      color: #505050;
+      border-radius: 0px;
+      margin-bottom: 15px !important;
+      text-align: left !important;
+      border: 1px solid;
+      border-color: #b7b7b7;
+    }
+    .date-time {
+      display: flex;
+  
+      input:first-child {
+        margin-right: 10px;
+      }
+    }
+    button {
+      height: 40px;
+      margin-top: 10px;
+      border: none;
+      outline: none;
+      background-color: #f53c56;
+      border-radius: 20px;
+      padding: 0 20px;
+      color: white;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .add_event_btn {
+      background-color: #5c53e9 !important;
+    }
+    input[type="text"] {
+      text-align: center;
+    }
+    input[type="time"] {
+      width: 115px;
+      padding: 0 20px;
+      font-size: 15px;
+    }
+  }
+  
+  .black-screen {
+    background: #0000008f;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .info-modal {
+    display: flex;
+    flex-direction: column;
+  
+    hr {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border: 1px;
+      border-top: 1px solid #0000006e !important;
+      width: 100%;
+    }
+    .date-info {
+      width: 100%;
+      p {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+.rbc-toolbar{
+  margin-bottom: 30px !important;
+}
+.rbc-toolbar-label {
+  font-weight: 600;
+  font-size: 25px;
+}
+  .rbc-active{
+    background: #7764e4a1 !important;
+    color: white !important;
+    font-weight: 700;
+  }
+  
+  .stop-scrolling {
+    overflow: hidden;
+  }
+  
+  .rbc-day-bg:hover {
+    cursor: pointer;
+    background: #e6e6e6;
+  }
+  
+  .add-event-btn {
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: #5c53e9;
+    border-radius: 20px;
+    padding: 0 20px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: "Roboto";
+    i {
+      margin-right: 7px;
+      margin-top: -3px;
+    }
+  }
+  
+  .rbc-event {
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  .rbc-event:focus,
+  .rbc-day-slot .rbc-background-event:focus {
+    outline: none;
+  }
+  
+  .rbc-event:hover {
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  
+  .rbc-calendar {
+    font-family: sans-serif;
+  }
+
+  .date-container{
+    max-width: 700px;
+    .sc-ksdxgE{
+      width: 100%;
+    }
+    .date-container{
+      display:flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .date-time {
+      display: block !important;
+    }
+    .event-modal {
+      width: 90% !important;
+    }
+  }
+
+  .container-perso {
+    margin: px 10px;
+    padding: 10px 10px;
+    background: white;
+    border-radius: 0px;
+    box-shadow: 3px 3px 10px #00000038;
+    overflow: auto;
+  }
+  

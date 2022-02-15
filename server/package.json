@@ -1,0 +1,45 @@
+{
+  "name": "rhaddinn",
+  "version": "1.0.0",
+  "description": "app rh for addinn",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server",
+    "start": "node server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaima-dey/RHADDINN.git"
+  },
+  "author": "chaimadey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaima-dey/RHADDINN/issues"
+  },
+  "homepage": "https://github.com/chaima-dey/RHADDINN#readme",
+  "dependencies": {
+    "async": "^3.2.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.2",
+    "file-type": "^16.5.3",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.9",
+    "multer": "^1.4.3",
+    "react-select": "^5.2.1",
+    "request": "^2.88.2",
+    "serve-index": "^1.9.1",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13"
+  }
+}
